@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Receitas Saudáveis</string>
+    <string name="panqueca">Panqueca de Banana e Aveia</string>
+    <string name="titlePancakeString">Panqueca de Banana e Aveia</string>
+    <string name="descriptionPancake">Confira o passo a passo e surpreenda-se com essa opção deliciosa para o café da manhã ou lanche!</string>
+
+    <string-array name="titulos_receitas">
+        <item>Panqueca de Banana e Aveia</item>
+        <item>Coxinha fit (pré-treino)</item>
+        <item>Pão de queijo de frigideira</item>
+        <item>Torta de frango low carb</item>
+        <item>Torta de tapioca fit</item>
+        <item>Manjar Light de Coco</item>
+        <item>Strogonoff vegano</item>
+        <item>Bolo de chocolate diet</item>
+        <item>Brigadeiro fit de batata-doce</item>
+        <item>Chips de mandioca</item>
+    </string-array>
+
+    <string-array name="descricoes_receitas">
+        <item>Confira o passo a passo e surpreenda-se com essa opção deliciosa para o café da manhã ou lanche!</item>
+        <item>Sente saudades da clássica coxinha brasileira? Confira esta alternativa saudável e deliciosa!</item>
+        <item>Um clássico mineiro, desta vez mais saudável e encaixa na sua dieta!</item>
+        <item>Confira esta deliciosa torta e emagreça enquanto coma!</item>
+        <item>Ótima alternativa pós-treino, muito rápido de fazer!</item>
+        <item>Confira esta Sobremesa saudável que cabe na sua rotina!</item>
+        <item>Confira este revival do clássico estrogonofe sem crueldade animal!</item>
+        <item>Variação do Bolo de brigadeiro para quem não pode comer muito doce.</item>
+        <item>Quer ficar monstro mas continua sendo uma formiga? confira!</item>
+        <item>Bem melhor que aquele salgadinho merreca que tu paga 20 conto!</item>
+    </string-array>
+
+
+</resources>

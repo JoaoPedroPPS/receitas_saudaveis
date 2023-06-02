@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="MissingDefaultResource">
+        <ignore path="res/drawable/Bolo-banana.webp" />
+        <ignore path="res/drawable/panqueca-aveia-banana.webp" />
+    </issue>
+</lint>
