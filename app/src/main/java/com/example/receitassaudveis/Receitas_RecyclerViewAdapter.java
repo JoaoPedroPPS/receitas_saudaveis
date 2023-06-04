@@ -15,14 +15,17 @@ import java.util.ArrayList;
 
 public class Receitas_RecyclerViewAdapter extends RecyclerView.Adapter<Receitas_RecyclerViewAdapter.MyViewHolder> {
 
+    private final RecyclerViewInterface recyclerViewInterface;
+
     Context context;
     ArrayList<receitaModel> receitaModels;
 
 
-    public Receitas_RecyclerViewAdapter(Context context, ArrayList<receitaModel> receitaModels){
+    public Receitas_RecyclerViewAdapter(Context context, ArrayList<receitaModel> receitaModels,
+                                        RecyclerViewInterface recyclerViewInterface){
         this.context = context;
         this.receitaModels = receitaModels;
-
+        this.recyclerViewInterface = recyclerViewInterface;
     }
 
 
@@ -33,7 +36,7 @@ public class Receitas_RecyclerViewAdapter extends RecyclerView.Adapter<Receitas_
         View view = inflater.inflate(R.layout.recycler_view_row, parent, false);
 
 
-        return new Receitas_RecyclerViewAdapter.MyViewHolder(view);
+        return new Receitas_RecyclerViewAdapter.MyViewHolder(view, recyclerViewInterface);
     }
 
     @Override
@@ -55,11 +58,25 @@ public class Receitas_RecyclerViewAdapter extends RecyclerView.Adapter<Receitas_
         TextView textViewDescricao;
 
 
-        public MyViewHolder(@NonNull View itemView) {
+        public MyViewHolder(@NonNull View itemView, RecyclerViewInterface recyclerViewInterface) {
             super(itemView);
             imageView = itemView.findViewById(R.id.receitaImageView);
-            textViewTitulo = itemView.findViewById(R.id.receitaTitle);
+            textViewTitulo = itemView.findViewById(R.id.favReceitaTitle);
             textViewDescricao = itemView.findViewById(R.id.receitaDescription);
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if(recyclerViewInterface != null){
+                        int pos = getAdapterPosition();
+
+                        if(pos != RecyclerView.NO_POSITION){
+                            recyclerViewInterface.onItemClick(pos);
+                        }
+                    }
+                }
+            });
+
         }
     }
 }

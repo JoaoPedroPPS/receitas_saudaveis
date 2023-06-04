@@ -4,6 +4,19 @@
     <string name="titlePancakeString">Panqueca de Banana e Aveia</string>
     <string name="descriptionPancake">Confira o passo a passo e surpreenda-se com essa opção deliciosa para o café da manhã ou lanche!</string>
 
+    <string-array name="videos_receitas">
+        <item>https://www.youtube.com/watch?v=KhpTVZ_xtWQ</item>
+        <item>https://www.youtube.com/watch?v=frVPItDlU3A</item>
+        <item>https://www.youtube.com/watch?v=i5eCALSFDWE</item>
+        <item>https://www.youtube.com/watch?v=K-GIWUhOv2c</item>
+        <item>https://www.youtube.com/watch?v=cHBEMfg-geE</item>
+        <item>https://www.youtube.com/watch?v=h3xCRaYRFkc</item>
+        <item>https://www.youtube.com/watch?v=_xFiyX002QQ</item>
+        <item>https://www.youtube.com/watch?v=MI8adV6O-TQ</item>
+        <item>https://www.youtube.com/watch?v=ExmqVeaXXTU</item>
+        <item>https://www.youtube.com/watch?v=vhoTnZTA_Bw</item>
+    </string-array>
+
     <string-array name="titulos_receitas">
         <item>Panqueca de Banana e Aveia</item>
         <item>Coxinha fit (pré-treino)</item>
@@ -30,5 +43,295 @@
         <item>Bem melhor que aquele salgadinho merreca que tu paga 20 conto!</item>
     </string-array>
 
+    <string-array name="ingredientes_receitas">
+        <item>
+            2 bananas\n
+            2 ovos\n
+            ½ xícara de aveia em flocos\n
+            1 colher (sopa) de extrato de baunilha\n
+            1 colher (sopa) de canela\n
+            (alternativas: 1 colher de chocolate em pó OU 2 colheres de manteiga de amendoim)
+        </item>
+        <item>
+            1 xícara de batata doce cozida e amassada com sal (a gosto)\n
+            Linhaça\n
+            1 xícara de frango cozido temperado e desfiado
+        </item>
+        <item>
+            1 ovo\n
+            2 colheres (sopa) de tapioca\n
+            1 colher (sopa) requeijão light\n
+            1 pitada de sal
+        </item>
+        <item>
+            6 ovos\n
+            1 caixinha de creme de leite\n
+            1 colher (sopa) de requeijão\n
+            100 g mussarela ralada\n
+            500 g de peito de frango desfiado\n
+            cebola\n
+            tomate\n
+            1 1/2 colher (café) de fermento em pó
+        </item>
+        <item>
+            4 ovos\n
+            5 colheres (sopa) cheias de tapioca\n
+            2 colheres (sopa) bem cheias de requeijão (ou creme de ricota)\n
+            2 colheres (sopa) de queijo ralado\n
+            sal a gosto\n
+            ervas a gosto\n
+            1 colher (sobremesa) de fermento em pó\n
+            1 cenoura\n
+            1 cebola grande\n
+            200 g de peito de frango\n
+            1 tomate\n
+            mussarela para cobrir\n
+            1 dente de alho\n
+        </item>
+        <item>
+            1 lata de leite condensado light\n
+            1 lata de creme de leite light\n
+            1 vidro de leite de coco light\n
+            12 g de gelatina em pó sem sabor\n
+            1/2 xícara (chá) de água quente\n
+            1 pacote de coco ralado sem açúcar\n
+        </item>
+        <item>
+            1 xícara de grão de bico (cru)\n
+            4 folhas de louro\n
+            1 xícara de cogumelo paris fresco\n
+            2 colheres (sopa) de azeite\n
+            1 colher (sopa) de semente de mostarda\n
+            6 dentes de alho picados\n
+            1 cebola grande picada\n
+            1 vidro de palmito cortado em rodelas\n
+            2 xícaras de polpa de tomate\n
+            1/2 xícara de água\n
+            Cebolinha a gosto\n
+            200 g de creme de leite de caju\n
+            1 colher (sopa) de sal
+        </item>
+        <item>
+            3 ovos\n
+            2 xícaras (chá) de farinha de trigo\n
+            1 xícara (chá) adoçante (para forno e fogão)\n
+            1 xícara (chá) de chocolate em pó diet\n
+            1 xícara (chá) de leite\n
+            2 colheres (sopa) margarina ligth sem sal\n
+            2 colheres (sopa) fermento em pó\n
+        </item>
+        <item>
+            500 g de batata-doce\n
+            2 colheres (sopa) de óleo de coco\n
+            4 colheres (sopa) de cacau em pó\n
+            2 colheres (sopa) de açúcar mascavo\n
+            50 ml leite desnatado\n
+            1 colher (café) de café solúvel\n
+            chocolate meio amargo granulado para decorar
+        </item>
+        <item>
+            300 g de mandioca\n
+            sal a gosto\n
+            pimenta-do-reino a gosto\n
+            azeite para untar
+        </item>
+    </string-array>
+
+    <string-array name="passoAPasso_receitas">
+        <item>
+            Amasse as bananas em uma travessa funda.\n\n
+
+            Adicione os ovos inteiros e misture bem.\n\n
+
+            Adicione a baunilha, a aveia e a canela (ou o chocolate em pó ou a manteiga de amendoim).\n\n
+
+            Unte uma frigideira com um pouco de óleo e leve ao fogo ate aquecer. \n\n
+
+            Coloque uma colherada grande (ou uma concha) da massa na frigideira.\n\n
+
+            Cozinhe de 2 a 3 minutos.\n\n
+
+            Quando a massa começar a soltar umas bolhinhas, vire e deixe mais 1 a 2 minutos.\n\n
+
+            Repita o processo de cozimento para as demais porções.\n\n
+
+            Sirva com maple sirop ou sua cobertura favorita.\n\n
+        </item>
+        <item>
+            Bata a linhaça no liquidificador e separe.\n\n
+
+            Faça um bolinho com a batata amassada.\n\n
+
+            Recheie com o frango desfiado.\n\n
+
+            Deixe no formato de coxinha e depois passe a farinha da linhaça.\n\n
+
+            Coloque no forno a 180ºC por 30 minutos ou até dourar.\n\n
+        </item>
+        <item>
+            Coloque todos os ingredientes em um prato e misture-os até que fiquem homogêneos.\n\n
+
+            Aqueça um pouquinho uma frigideira sem óleo, sem azeite e sem manteiga, somente a frigideira.\n\n
+
+            Logo após coloque a massa.\n\n
+
+            Espere um tempo até que ela fique um pouco douradinha embaixo.\n\n
+
+            Se preferir virar a crepioca, vire-a com a ajuda de uma colher ou garfo.\n\n
+
+            Ou coloque uma tampa que cubra toda a frigideira e espere ela cozinhar até o ponto do seu gosto.\n\n
+        </item>
+        <item>
+            No liquidificador, bata os ovos, a mussarela, o creme de leite e o requeijão. Bata tudo por 5 minutos.\n\n
+
+            Coloque o fermento e bata por mais 1 minuto.\n\n
+
+            Recheio:\n\n
+
+            Refogue o peito de frango e faça um molho de sua preferência.\n\n
+
+            Em uma forma untada com azeite ou manteiga, coloque uma camada de massa.\n\n
+
+            Depois, o recheio, e por ultimo o restante da massa.\n\n
+
+            Assar em forno alto por 30 minutos.\n\n
+        </item>
+        <item>
+            Recheio:\n\n
+
+            Em uma panela de pressão, refogue a cebola, o alho e o tomate picado na manteiga.\n\n
+
+            Adicione o peito de frango e deixe dourar.\n\n
+
+            Cubra com água e deixe cozinhar por 20 minutos após pegar pressão.\n\n
+
+            Depois separe a água e, somente com o frango dentro da panela, tampe e sacuda por várias vezes até que tenha desfiado totalmente o frango.\n\n
+
+            Adicione os temperos desejados e misture.\n\n
+
+            Rale a cenoura e misture com o frango desfiado, reserve.\n\n
+
+            Massa:\n\n
+
+            Em um liquidificador, bata os ovos, a tapioca, o requeijão e o queijo ralado.\n\n
+
+            Deixe bater por cerca de 2 minutos.\n\n
+
+            Dica: Também pode ser batido na mão.\n\n
+
+            Adicione o sal e as ervas e bata novamente.\n\n
+
+            Desligue o liquidificador, adicione o fermento e misture com uma colher.\n\n
+
+            Unte uma forma média ou use uma forma de silicone.\n\n
+
+            Transfira metade da massa, coloque o recheio e cubra com o restante da massa.\n\n
+
+            Salpique mussarela a gosto e decore com tomate cereja e orégano.\n\n
+
+            Leve ao forno preaquecido a 180° C, por cerca de 25 minutos.\n\n
+
+            Retire do forno e sirva\n\n
+        </item>
+        <item>
+            Exceto a gelatina, coloque todos os ingredientes no liquidificador e bata até obter um creme homogêneo.\n\n
+
+            A seguir, hidrate a gelatina em água quente e acrescente-a no liquidificador.\n\n
+
+            Bata mais um pouco.\n\n
+
+            Retire e coloque em uma forma para pudim.\n\n
+
+            Deixe na geladeira por 6 horas.\n\n
+
+            Desenforme, cubra com o coco ralado ou sua cobertura de preferência (chocolate granulado, cereja, vinho tinto etc) e sirva.\n\n
+        </item>
+        <item>
+            Grão de bico:\n\n
+            Deixe o grão de bico de molho, imerso em água por pelo menos 8 horas.\n\n
+
+            Escorra e coloque o grão de bico em uma panela de pressão.\n\n
+
+            Encha a panela de água, de forma com que fique uma camada de água de pelo menos 5 centímetros acima do grão de bico.\n\n
+
+            Adicione as folhas de louro.\n\n
+
+            Leve ao forno e deixe ferver por 20 minutos após iniciar a pressão.\n\n
+
+            Deixe esfriar e reserve.\n\n
+
+            Creme de leite de caju:\n\n
+
+            Em um liquidificador, adicione a castanha de caju e a água, e bata por 3 minutos até formar um creme.\n\n
+
+            Reserve.\n\n
+
+            Cogumelo paris:\n\n
+
+            Lave os cogumelos e corte em fatias finas.\n\n
+
+            Leve ao fogo em uma frigideira pré-aquecida por 5 minutos, até que o cogumelo solte a água.\n\n
+
+            Escorra e reserve.\n\n
+
+            Strogonoff:\n\n
+
+            Em uma panela grande pré aquecida, coloque o azeite e as sementes de mostarda.\n\n
+
+            Frite até que elas comecem a dourar, ou até que comecem a "saltar".\n\n
+
+            Adicione o alho e a cebola e refogue por 3 minutos.\n\n
+
+            Acrescente o grão de bico, o palmito picado e os cogumelos, deixando em fogo baixo por aproximadamente 5 minutos.\n\n
+
+            Mexa delicadamente para o grão de bico e palmito não desmancharem.\n\n
+
+            Acrescente a polpa de tomate e a água.\n\n
+
+            Adicione o sal e deixe cozinhar, em fogo baixo, por 10 minutos.\n\n
+
+            Desligue o fogo e acrescente o creme de leite de caju e a cebolinha.\n\n
+        </item>
+        <item>
+            Massa:\n\n
+
+            Coloque em uma tigela, os ovos com a margarina e bata levemente.\n\n
+
+            Acrescente a farinha de trigo, o chocolate, o leite, misture tudo muito bem.\n\n
+
+            Acrescente o adoçante e o fermento em pó, misture levemente.\n\n
+
+            Unte uma forma de furo, leve ao forno (180º) por mais ou menos 20 minutos, ou até dourar.\n\n
+
+            Cobertura:\n\n
+
+            Leve todos os ingredientes ao fogo e deixe engrossar.\n\n
+
+            Coloque no bolo ainda quente.\n\n
+        </item>
+        <item>
+            Cozinhe as batatas na pressão por aproximadamente 20 minutos.\n\n
+
+            Amasse-as bem.\n\n
+
+            Coloque o purê em uma panela com o cacau, açúcar, café e óleo.\n\n
+
+            Cozinhe e mexa a massa, enquanto acrescenta o leite até ficar homogêneo.\n\n
+
+            Deixar esfriar.\n\n
+
+            Enrolar e passe no chocolate meio amargo granulado.\n\n
+        </item>
+        <item>
+            Descasque e lave bem a mandioca.\n\n
+
+            Em seguida, com o auxílio de uma faca ou cortador de legumes, corte a mandioca em fatias bem finas.\n\n
+
+            Após, unte um tabuleiro com azeite e disponha as fatias de mandioca sem sobrepô-las.\n\n
+
+            Leve ao forno a 180º C por aproximadamente 40 minutos ou até que estejam douradas e crocantes.\n\n
+
+        </item>
+    </string-array>
 
 </resources>

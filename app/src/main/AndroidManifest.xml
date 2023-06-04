@@ -12,6 +12,14 @@
         android:theme="@style/Theme.ReceitasSaudáveis"
         tools:targetApi="31">
         <activity
+            android:name=".BookmarksActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".detail_receita_Activity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
