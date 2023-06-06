@@ -2,15 +2,15 @@ package com.example.receitassaudveis;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Menu;
 import android.widget.TextView;
 
+import java.util.Objects;
+
 public class BookmarksActivity extends AppCompatActivity {
-    private String tituloFav;
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -21,12 +21,12 @@ public class BookmarksActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bookmarks);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
 
         TextView tituloTextView = findViewById(R.id.favReceitaTitle);
 
         SharedPreferences sharedPreferences = getSharedPreferences("BookmarkPrefs", Context.MODE_PRIVATE);
-        tituloFav = sharedPreferences.getString("chaveTitulo", "");
+        String tituloFav = sharedPreferences.getString("chaveTitulo", "");
 
         tituloTextView.setText(tituloFav);
     }
