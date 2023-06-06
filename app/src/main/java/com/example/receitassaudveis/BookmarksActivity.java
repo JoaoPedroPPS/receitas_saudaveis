@@ -25,12 +25,10 @@ public class BookmarksActivity extends AppCompatActivity {
 
         TextView tituloTextView = findViewById(R.id.favReceitaTitle);
 
-
-        setContentView(R.layout.activity_bookmarks);
         SharedPreferences sharedPreferences = getSharedPreferences("BookmarkPrefs", Context.MODE_PRIVATE);
-        tituloFav = sharedPreferences.getString("chaveTitulo","");
+        tituloFav = sharedPreferences.getString("chaveTitulo", "");
 
-        tituloTextView.setText(tituloFav.toString());
-
+        tituloTextView.setText(tituloFav);
     }
+
 }

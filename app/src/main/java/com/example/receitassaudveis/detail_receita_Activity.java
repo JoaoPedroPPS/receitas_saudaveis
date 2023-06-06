@@ -52,14 +52,13 @@ public class detail_receita_Activity extends AppCompatActivity {
         setContentView(R.layout.activity_detail_receita);
 
 
-        videoView = findViewById(R.id.videoView);
+        VideoView video = findViewById(R.id.videoView);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
-        videoView.setMediaController(mediaController);
+        video.setMediaController(mediaController);
 
-        String videoUrl = getIntent().getStringExtra("URL_VIDEO").toString();
-        videoView.setVideoPath(videoUrl);
-        videoView.start();
+        String videoPath = "file:///android_asset/manjar_de_coco_mp4.mp4";
+        video.setVideoPath(videoPath);
 
         String titulo = getIntent().getStringExtra("TITULO");
         String ingredientes = getIntent().getStringExtra("INGREDIENTES");
